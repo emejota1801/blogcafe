@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Café</title>
+    
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span 
+                        class="logo__bold">DeCafé</span></h1>
+                </a>
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+        <div class="header__texto">
+            <h2 class="no-margin"> Blog de Café con cursos y consejos</h2>
+            <p class="no-margin"> Aprende con expertos las mejores recetas</p>
+        </div>
+    </header>
+    
+    <main class="contenedor ">
+        <h3 class="centrar-texto">Contacto</h3>
+      <div class="contacto-bg">
+    </div>
+        <form class="formulario">
+            <div class="campo">
+                <label class="campo__label" for="nombre">Nombre</label>
+                <input 
+                class="campo__field"
+                type="text" 
+                placeholder="Tu Nombre" 
+                id="nombre"></input>
+            </div>
+
+            <div class="campo">
+                <label class="campo__label" for="email">E-mail</label>
+                <input class="campo__field"
+
+                type="text" 
+                placeholder="Tu Correo"
+                id="email"></input>
+            </div>
+ 
+            <div class="campo">
+                <label class="campo__label campo__field--textarea" for="Mensaje">Mensaje</label>
+                <textarea 
+                class="campo__field"
+                id="mensaje"></textarea>
+            </div>
+            <input type="submit" value="Enviar" class="boton boton--primario">
+        </form>
+
+    </main>
+</body>
+<footer class="footer">
+    <div class="contenedor">
+        <div class="barra">
+            <a class="logo" href="index.html">
+                <h1 class="logo__nombre no-margin centrar-texto">Blog<span 
+                    class="logo__bold">DeCafé</span></h1>
+                    <div>
+                        <p>Todos los derechos reservados. EMEJOTA-2023</p>
+                    </div>
+            </a>
+            <nav class="navegacion">
+                <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+            </nav>
+        </div>
+    </div>
+</footer>
+</html>
